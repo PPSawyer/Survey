@@ -1,0 +1,244 @@
+ <!DOCTYPE html>
+ <html lang="en">
+	<head>
+		<title> NewMoneyOldMoney </title >
+		<meta charset ="utc-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		
+		
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #8B0000; /*DarkRed */
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a, .dropbtn {
+		  display: inline-block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  font-family: "Lucida Console";
+		  text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+		  background-color: red;
+		}
+
+		li.dropdown {
+		  display: inline-block;
+		}
+
+		/* Color of Drop down selection */
+		
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #191970; /*Midnight Blue*/
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+		/* Color of Font in drop down */
+		
+		.dropdown-content a {
+		  color: white;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		/* Color of hovering drop down selection */
+		
+		.dropdown-content a:hover {background-color: #000000;} /*black */
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		
+		/*Play Crystal Hunting Button */
+		.button {
+		  background-color: #191970; /* Midnight Blue */
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		  -webkit-transition-duration: 0.4s; /* Safari */
+		  transition-duration: 0.4s;
+		}
+
+		.button1:hover {
+		  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		
+		/*Body Color */
+		body {
+		margin: 0;
+		background: #F0E68C;
+		}
+	
+		/* Header/Logo Title */
+		.header {
+		  padding: 30px;
+		  text-align: center;
+		  text-transform: uppercase;
+		  background: #191970;
+		  color: floralwhite;
+		  text-shadow: 2px 2px 5px	#FF0000;
+		  font-size: 20px;
+		}
+		
+		.footer {
+		  background-image: url(./images/wood4.jpg)
+		  text-align: center;
+		  color: black;
+		  font-sizee: 10px;
+		  text-shadow: 2px 2px #FF0000;
+		  padding: 10px;
+		}
+		
+	
+			/* Create three equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 31%;
+		  padding: 15px;
+		/*  border: 1px solid gray; */
+		  text-align: center;
+		  font-family: "Garamond";
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		@media screen and (max-width:600px) {
+			.column {
+				width: 100%;
+		  }
+		}
+		
+	section {
+			text-align: center;
+			/*	padding: 20x; /*
+			/*	width: 100%;  /*
+			/*	height: 300px;	 /*
+		
+	}
+	
+	img {
+		border-radius: 50%;
+		}
+		
+	</style>
+	</head>	
+	<body> 
+	
+		<div class="header">
+		  <h1>New Money, Old Money.Com</h1>
+		  <p>Your Choice.</p>
+		</div>
+	
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+	<!--	  <li><a href="Games.html">MONEY!YAY!</a></li> -->
+		  <li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Mission and Contact</a>
+			<div class="dropdown-content">
+			  <a href="Aboutus.html">About Us</a>
+			  <a href="Contactus.html">Contact 	Us</a>
+	<!--		<li><a href="Forums.html">Forums</a></li> -->
+			</div>
+		  </li>
+		</ul>
+		
+		<div class="row">
+			 <div class="column">
+<!--		<img src="images/wood4.jpg"> -->
+
+				<h3 > Date/Time	</h3 >
+				<p id="time"></p>
+				
+			</div>	
+				  
+				  
+			<div class="column">
+				<h1 > An Evaluation of New and Existing Forms of Local Payment Methods in The Bahamas	</h1 >
+				
+				
+				
+				</p >
+
+						If you would like to know more about this research please contact the researcher,
+						Eugenique Williams, at 40414810@live.napier.ac.uk. If you have questions that cannot be
+						answered by the researcher, please feel free to contact the researcher’s supervisor, Dr
+						Bruce Ryan, School of Computing, Edinburgh Napier University. He can be contacted by
+						email at b.ryan@napier.ac.uk. </p >
+			<!--
+				<aside> More games coming soon!	</aside>
+				
+				<h3>Featured Game: Crystal Hunting	</h3>
+		
+				<p>The Crystal is missing, help solve the mystery.</p>
+		
+				<img src="images/sunset here.png">
+					
+				-->	
+				</div>
+				
+			<div class="column">
+	<!--	<img src="images/wood4.jpg" alt="Wood4" width="300" height="300"> -->
+				
+			</div>	
+			
+			</div>
+		</div>
+					
+		<!-- Section for the button center -->
+		<!--
+		<section>
+		
+			<button class="button button1"> 
+			<li><a href="Crystalhunt.html">Play Crystal Hunting</a></li>
+			
+			</button>	
+		
+		</section >
+		-->
+				<script>
+					var d = new Date();
+					document.getElementById("time").innerHTML = d;
+				</script>
+				
+		<!--		
+			<audio controls autoplay>
+				<source src="sounds/2.ogg" type="audio/ogg">
+			  <source src="sounds/2.mp3" type="audio/mpeg">	
+			</audio>
+		-->
+		<div class="footer">
+		
+		  <h2>Your Choice</h2>
+		  
+		</div>
+		
+		<footer>NewMoneyOldMoney.com - All rights reserved </footer>
+	
+
+	</body
+</html>
